@@ -10,7 +10,6 @@ import {
   type ReportRequest,
 } from '../../shared/schemas';
 import { postJson } from './apiClient';
-import { mockAiService } from './mockAiService';
 
 /** UI depends on this interface only, so live/mock (or a future provider) are interchangeable. */
 export interface AiService {
@@ -26,7 +25,16 @@ const liveAiService: AiService = {
   generateReport: (req, signal) => postJson('/api/interview/report', req, InterviewReportSchema, signal),
 };
 
+// Demo engine (question bank + heuristics) is a separate chunk: live mode never downloads it,
+// demo mode fetches it on first use.
+const loadMock = () => import('./mockAiService').then((m) => m.mockAiService);
+const lazyMockAiService: AiService = {
+  generateQuestions: async (config, signal) => (await loadMock()).generateQuestions(config, signal),
+  evaluateAnswer: async (req, signal) => (await loadMock()).evaluateAnswer(req, signal),
+  generateReport: async (req, signal) => (await loadMock()).generateReport(req, signal),
+};
+
 export const AI_MODE: 'live' | 'mock' =
   String(import.meta.env.VITE_AI_MODE ?? '').trim().toLowerCase() === 'live' ? 'live' : 'mock';
 console.info(`[app] AI mode: ${AI_MODE}`);
-export const aiService: AiService = AI_MODE === 'live' ? liveAiService : mockAiService;
+export const aiService: AiService = AI_MODE === 'live' ? liveAiService : lazyMockAiService;
