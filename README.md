@@ -92,28 +92,31 @@ Run the whole app **without any API key**. Mock mode simulates the AI locally, s
 ---
 
 ## Screenshots
-## Setup
+### Setup
 <img width="1150" height="1658" alt="ai-interview-simulator-live vercel app_ (1)" src="https://github.com/user-attachments/assets/372b82ad-b8c8-4ce3-b3a6-90c65365661f" />
 
-## Answering a Question
+### Recording an Answer
 <img width="1150" height="1056" alt="ai-interview-simulator-live vercel app_ (2)" src="https://github.com/user-attachments/assets/fcbf9b15-6ca2-47ac-b3d9-228f6c6b5c05" />
 
-## Feedback
+### Typing an Answer
 <img width="1150" height="1265" alt="ai-interview-simulator-live vercel app_ (3)" src="https://github.com/user-attachments/assets/93d440e6-e70a-4ba8-83af-61a9415db733" />
 
-## Final Report
+### Feedback
 <img width="1150" height="1548" alt="ai-interview-simulator-live vercel app_ (4)" src="https://github.com/user-attachments/assets/8b14c2c8-814d-4422-a1ff-aed91ed50296" />
 
+### Answering Follow-up Question
 <img width="1150" height="1869" alt="ai-interview-simulator-live vercel app_" src="https://github.com/user-attachments/assets/b715fa60-9c8c-4059-ba5b-53f8dd6e7841" />
 
+### Feedback of Follow-up Answer
 <img width="1150" height="1654" alt="ai-interview-simulator-live vercel app_ (5)" src="https://github.com/user-attachments/assets/e210a9b7-c9db-474e-ab11-d945df6d97e3" />
 
+### Final Report
 <img width="1150" height="1830" alt="ai-interview-simulator-live vercel app_ (6)" src="https://github.com/user-attachments/assets/693e3bf9-0fea-4258-85d4-e333d3739d17" />
 
-## History and Progres
+### History and Progress
 <img width="1170" height="869" alt="ai-interview-simulator-live vercel app_ (7)" src="https://github.com/user-attachments/assets/14ad493a-1b12-4bcf-8aed-a0cc2057fd0a" />
 
-## Light Mode
+### Light Mode
 <img width="1150" height="1658" alt="ai-interview-simulator-live vercel app_ (8)" src="https://github.com/user-attachments/assets/1fd79d7c-00bf-449f-985a-8aed4a79be1a" />
 
 
