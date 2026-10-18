@@ -87,7 +87,7 @@
 - **Remembers your setup**: last role, level and type are pre-filled
 
 ### Works offline in demo mode
-Run the whole app **without any API key**. Mock mode simulates the AI locally, so every screen and feature can be explored for free.
+Run the whole app **without any API key**. Demo mode simulates the AI in the browser using a bank of **95 questions** across frontend, backend, mobile, QA, data, DevOps and product roles. Questions are matched to the role, level, focus areas and job description, recently asked ones are avoided, and every question has its own follow-ups. The demo engine is a separate, lazy-loaded chunk, so live mode never downloads it.
 
 ---
 
