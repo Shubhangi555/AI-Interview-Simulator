@@ -1,5 +1,6 @@
 <img width="1150" height="1658" alt="ai-interview-simulator-live vercel app_ (1)" src="https://github.com/user-attachments/assets/372b82ad-b8c8-4ce3-b3a6-90c65365661f" />
 
+<!-- 
   ----------------------
   1. Create a folder: docs/screenshots/
   2. Save your images there using the file names below (or change the paths).
