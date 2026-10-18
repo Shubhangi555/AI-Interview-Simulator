@@ -363,7 +363,7 @@ Decisions worth calling out:
 ## Author
 
 <!-- Replace with your details -->
-**YOUR NAME** · [LinkedIn](https://www.linkedin.com/in/YOUR-PROFILE) · [Portfolio](https://YOUR-PORTFOLIO-URL) · [GitHub](https://github.com/YOUR-USERNAME)
+**Shubhangi Bhosale** · [LinkedIn](https://www.linkedin.com/in/shubhangi-bhosale-853144244) · [Portfolio](https://shubhangibhosale.vercel.app) · [GitHub](https://github.com/Shubhangi555)
 
 <!-- LICENSE: add a LICENSE file (MIT is common for portfolio projects) and uncomment the line below.
 ## License
