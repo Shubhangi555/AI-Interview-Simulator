@@ -1,5 +1,5 @@
-<img width="1150" height="1654" alt="ai-interview-simulator-live vercel app_ (5)" src="https://github.com/user-attachments/assets/4493d711-97bd-4a44-80c3-acb518ff604d" /><img width="1150" height="1548" alt="ai-interview-simulator-live vercel app_ (4)" src="https://github.com/user-attachments/assets/d1e688a8-2247-4311-8409-f2c1cfde6649" /><!--
-  README IMAGE CHECKLIST
+<img width="1150" height="1658" alt="ai-interview-simulator-live vercel app_ (1)" src="https://github.com/user-attachments/assets/372b82ad-b8c8-4ce3-b3a6-90c65365661f" />
+
   ----------------------
   1. Create a folder: docs/screenshots/
   2. Save your images there using the file names below (or change the paths).
